@@ -12,6 +12,7 @@ body {
 
 .text-muted {
     #{{ site.data.template.color.muted }};
+    color: #{{ site.data.template.color.muted }};
 }
 
 .text-primary {
@@ -335,11 +336,12 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 25px;
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-weight: 400;
+    color: #ccc;
 }
 
 @media(min-width:768px) {
