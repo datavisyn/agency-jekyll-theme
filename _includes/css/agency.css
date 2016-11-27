@@ -269,14 +269,15 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png),radial-gradient(ellipse at center, #555555 0%, #000000 100%);
+    /*background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 header .intro-text {
