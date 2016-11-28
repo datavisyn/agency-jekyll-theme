@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+baseurl: /datavisyn.github.io/
 
 # Site settings
 title: datavisyn
@@ -42,8 +42,6 @@ people:
   pic: gehlenborg
   position: Co-Founder
   social:
-    - title: home
-      url: http://gehlenborg.com
     - title: twitter
       url: http://twitter.com/nils_gehlenborg
     - title: linkedin
