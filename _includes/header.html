@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="{{ "#page-top" | prepend: page.custom_url }}">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,10 +30,10 @@
                     </li>
                     -->
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="{{ "#team" | prepend: page.custom_url }}">Team</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="{{ "#contact" | prepend: page.custom_url }}">Contact</a>
                     </li>
                 </ul>
             </div>

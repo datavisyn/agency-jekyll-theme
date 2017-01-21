@@ -1,5 +1,5 @@
 url: https://y7kim.github.io
-baseurl: /datavisyn.github.io/
+baseurl: ""
 
 # Site settings
 title: datavisyn
@@ -46,6 +46,15 @@ people:
       url: http://twitter.com/nils_gehlenborg
     - title: linkedin
       url: http://www.linkedin.com/in/ngehlenborg
+
+- name: Christian Lehner
+  pic: lehner
+  position: Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/chri_lehner
+    - title: linkedin
+      url: https://www.linkedin.com/in/christianlehner
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
