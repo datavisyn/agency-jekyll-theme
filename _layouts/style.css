@@ -31,6 +31,10 @@
     margin-top: 60px;
 }
 
+.feature {
+    padding: 20px 0;
+}
+
 .feature i {
     font-size: 40px;
 }
