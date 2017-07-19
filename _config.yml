@@ -66,6 +66,41 @@ address:
   - line: Weingartshofstraße 27 1.2
   - line: 4020 Linz, Austria
 
+products:
+  - name: Ordino
+    description: "Ordino is a platform designed to bring your data analysis workflow to the next level. It allows you to interactively calculate scores, rank, filter and visualize the dataset and with different detail views you find the
+information you need. Internal and external detail views are seamlessly integrated in Ordino to provide all the data you need. Furthermore you can share your current work with your colleagues who can continue where you stopped."
+    link:
+      text: Try it yourself
+      url: https://ordino-daily.caleydoapp.org
+    images:
+      - caption:
+          header: Ordino Entry
+          text: Start from a full dataset
+        file: Ordino_1.png
+        class: active
+      - caption:
+          header: Visualizations
+          text: Select items (e.g. outliers) in different detail views or get information of external resources
+        file: Ordino_2.png
+        class: ""
+      - caption:
+          header: Detail Views & Filter
+          text: Open new detail views based on the selected items and filter, add scores, etc.
+        file: Ordino_3.png
+        class: ""
+    features:
+      - header: flexible ranking and scoring features
+        text: Dynamically add new score columns directly in Ordino and use them to rank your entities or filter them.
+        iconClass: sort-amount-desc
+      - header: provenance tracking and reproducibility
+        text: Provenance tracking is where Ordino really shines. It allows you to jump back to any point of time in your analysis history and create a new branch.
+        iconClass: repeat
+      - header: data providers
+        text: You need access to a different data source? Your private version of Ordino can be extended to use your own data sources. Interested? Contact us!
+        iconClass: database
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty

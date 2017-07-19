@@ -649,12 +649,8 @@ section h3.section-subheading {
     filter: grayscale(100%);
 }
 
-section#team .section-heading {
+section .section-heading {
     color: #fff;
-}
-
-team#section-heading h2 {
-    color: #FFCC05;
 }
 
 .team-member h4 {
@@ -881,8 +877,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
-
-.imprint {
-    color: #fff;
-}
-

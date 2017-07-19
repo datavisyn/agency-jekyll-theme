@@ -1,0 +1,73 @@
+<section id="products">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Products</h2>
+                <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
+            </div>
+        </div>
+        <div class="row">
+            {% for product in site.products %}
+            <div class="product">
+                <div class="col-lg-12 text-center">
+                    <h3>{{ product.name }}</h3>
+                    <p class="text-muted large">{{ product.description }}</p>
+                </div>
+                <div class="col-lg-12 product-content-wrapper">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <div id="ordino-showcase" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#ordino-showcase" data-slide-to="0" class="active"></li>
+                                    <li data-target="#ordino-showcase" data-slide-to="1"></li>
+                                    <li data-target="#ordino-showcase" data-slide-to="2"></li>
+                                </ol>
+
+                                <!-- Slides -->
+                                <div class="carousel-inner" role="listbox">
+                                    {% for image in product.images %}
+                                    <div class="item {{ image.class }}">
+                                        <img src="img/screenshots/ordino/{{ image.file }}" alt="">
+                                        <div class="carousel-caption">
+                                            <h4>{{ image.caption.header }}</h4>
+                                            <p class="large">{{ image.caption.text }}</p>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <!-- Controls -->
+                                <a class="left carousel-control" href="#ordino-showcase" role="button" data-slide="prev">
+                                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#ordino-showcase" role="button" data-slide="next">
+                                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row features">
+                        <div class="col-lg-12 text-center">
+                            <div class="row">
+                                {% for feature in product.features %}
+                                <div class="col-lg-4 feature">
+                                    <i class="fa fa-{{feature.iconClass}}"></i>
+                                    <h4>{{ feature.header }}</h4>
+                                    <p>{{ feature.text }}</p>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <a href="{{ product.link.url }}" target="_blank" class="btn btn-primary">{{ product.link.text}}</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
