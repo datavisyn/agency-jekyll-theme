@@ -69,6 +69,7 @@ address:
 
 collections:
   - products
+  - services
 
 
 # Build settings
