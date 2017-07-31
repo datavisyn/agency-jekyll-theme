@@ -1,6 +1,4 @@
 ---
-name: Ordino
-description: "Ordino is a platform designed to bring data analysis workflows to the next level. It allows to interactively calculate scores, rank, filter and visualize datasets. Internal and external detail views are seamlessly integrated in Ordino to provide all the data and visualizations needed to identify analysis targets."
 cssClass: ordino
 link:
   text: Try it yourself
@@ -38,3 +36,7 @@ features:
     text: Flexible mapping mechanism that deals with multi-mapping and various annotations (ENSEMBL, GeneSymbol, etc.)
     iconClass: exchange
 ---
+
+### Ordino
+
+Ordino is a platform designed to bring data analysis workflows to the next level. It allows to interactively calculate scores, rank, filter and visualize datasets. Internal and external detail views are seamlessly integrated in Ordino to provide all the data and visualizations needed to identify analysis targets.

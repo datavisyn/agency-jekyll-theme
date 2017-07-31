@@ -9,9 +9,8 @@
         <div class="row">
             {% for product in site.products %}
             <div class="product">
-                <div class="col-sm-12 text-center">
-                    <h3>{{ product.name }}</h3>
-                    <p class="text-muted large">{{ product.description }}</p>
+                <div class="col-sm-12 text-center intro">
+                    {{ product }}
                 </div>
                 <div class="col-sm-12 product-content-wrapper">
                     <div class="row">

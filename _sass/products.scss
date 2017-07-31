@@ -12,6 +12,13 @@
     margin: 20px 0;
 }
 
+.product {
+    .intro p {
+        color: $muted_text;
+        font-size: 16px;
+    }
+}
+
 .features {
     color: #fff;
     margin-top: 60px;
@@ -26,5 +33,9 @@
 
     h4 {
         margin: 20px 0;
+    }
+
+    p {
+        color: $muted_text;
     }
 }
