@@ -1,0 +1,30 @@
+.carousel-control span:first-child {
+    position: absolute;
+    right: 50%;
+    top: calc(50% - 10px);
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.product-content-wrapper {
+    margin: 20px 0;
+}
+
+.features {
+    color: #fff;
+    margin-top: 60px;
+}
+
+.feature {
+    padding: 20px;
+
+    i {
+        font-size: 40px;
+    }
+
+    h4 {
+        margin: 20px 0;
+    }
+}

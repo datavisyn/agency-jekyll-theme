@@ -39,3 +39,5 @@ Icon
 
 # Ruby
 Gemfile.lock
+
+.sass-cache/

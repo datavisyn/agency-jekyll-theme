@@ -1,0 +1,13 @@
+---
+---
+
+$muted_text: #{{ site.data.template.color.muted }};
+
+@import "imprint";
+@import "products";
+@import "services";
+
+
+h3 {
+    color: #fff;
+}
