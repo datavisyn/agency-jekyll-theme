@@ -9,62 +9,54 @@
         <div class="row">
             {% for product in site.products %}
             <div class="product">
-                <div class="row">
-                    <div class="col-sm-12 text-center intro">
-                        {{ product }}
-                    </div>
+                <div class="text-center intro">
+                    {{ product }}
+                </div>
 
-                    <div class="col-sm-12 product-content-wrapper">
-                    <div class="row">
-                        <div class="col-sm-8 col-sm-offset-2 text-center">
-                            <div id="{{ product.cssClass }}-showcase" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="0" class="active"></li>
-                                    <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="1"></li>
-                                    <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="2"></li>
-                                </ol>
+                <div class="product-content-wrapper">
+                    <div class="text-center">
+                        <div id="{{ product.cssClass }}-showcase" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="0" class="active"></li>
+                                <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="1"></li>
+                                <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="2"></li>
+                            </ol>
 
-                                <!-- Slides -->
-                                <div class="carousel-inner" role="listbox">
-                                    {% for image in product.images %}
-                                    <div class="item {{ image.class }}">
-                                        <img src="img/screenshots/{{ image.file }}" alt="">
-                                        <div class="carousel-caption">
-                                            <h4>{{ image.caption.header }}</h4>
-                                            <p class="large">{{ image.caption.text }}</p>
-                                        </div>
+                            <!-- Slides -->
+                            <div class="carousel-inner" role="listbox">
+                                {% for image in product.images %}
+                                <div class="item {{ image.class }}">
+                                    <img src="img/screenshots/{{ image.file }}" alt="">
+                                    <div class="carousel-caption">
+                                        <h4>{{ image.caption.header }}</h4>
+                                        <p class="large">{{ image.caption.text }}</p>
                                     </div>
-                                    {% endfor %}
-                                </div>
-                                <!-- Controls -->
-                                <a class="left carousel-control" href="#{{ product.cssClass }}-showcase" role="button" data-slide="prev">
-                                    <span class="fa fa-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control" href="#{{ product.cssClass }}-showcase" role="button" data-slide="next">
-                                    <span class="fa fa-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row features">
-                        <div class="col-sm-12 text-center">
-                            <div class="row">
-                                {% for feature in product.features %}
-                                <div class="col-sm-4 feature">
-                                    <i class="fa fa-{{feature.iconClass}}"></i>
-                                    <h4>{{ feature.header }}</h4>
-                                    <p>{{ feature.text }}</p>
                                 </div>
                                 {% endfor %}
                             </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#{{ product.cssClass }}-showcase" role="button" data-slide="prev">
+                                <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#{{ product.cssClass }}-showcase" role="button" data-slide="next">
+                                <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="features text-center">
+                        <div class="row">
+                            {% for feature in product.features %}
+                            <div class="col-sm-4 feature">
+                                <i class="fa fa-{{feature.iconClass}}"></i>
+                                <h4>{{ feature.header }}</h4>
+                                <p>{{ feature.text }}</p>
+                            </div>
+                            {% endfor %}
                         </div>
                     </div>
                 </div>
-                </div>
-
-
             </div>
             {% endfor %}
         </div>
