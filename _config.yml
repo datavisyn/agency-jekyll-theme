@@ -66,11 +66,13 @@ address:
   - line: Weingartshofstraße 27 1.2
   - line: 4020 Linz, Austria
 
-
 collections:
   - products
   - services
 
+supporter:
+  name: tech2b
+  url: http://tech2b.at
 
 # Build settings
 markdown: kramdown
