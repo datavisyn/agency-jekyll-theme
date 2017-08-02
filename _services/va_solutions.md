@@ -4,4 +4,4 @@ iconClass: bar-chart
 
 ### Visual Analysis Solutions
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+We take care of the conception and implementation of visual analysis solutions that are specifically tailored to our customers’ needs.

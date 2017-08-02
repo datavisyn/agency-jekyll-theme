@@ -35,6 +35,9 @@ features:
   - header: Annotations
     text: Flexible mapping mechanism that deals with multi-mapping and various annotations (ENSEMBL, GeneSymbol, etc.)
     iconClass: exchange
+  - header: Extensibility
+    text: The base platform can be extended via a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
+    iconClass: cubes
 ---
 
 ### Ordino

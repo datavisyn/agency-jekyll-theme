@@ -4,4 +4,4 @@ iconClass: users
 
 ### Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+We offer consulting services for the design and implementation of visual analysis solutions. Our focus lies on biological data visualization and the use of modern web technologies, such as D3.js, React, and many more.
