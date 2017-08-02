@@ -1,5 +1,5 @@
 ---
-iconClass: users
+iconClass: commenting-o
 ---
 
 ### Consulting
