@@ -5,19 +5,14 @@ link:
   url: https://ordino-daily.caleydoapp.org
 images:
   - caption:
-      header: Ordino Entry
-      text: Start from a full dataset
+      header: Interactive Rank Visualization
+      text: Prioritizing and filtering genes based on multiple data attributes
     file: ordino/Ordino_1.png
     class: active
   - caption:
-      header: Visualizations
-      text: Select items (e.g. outliers) in different detail views or get information of external resources
+      header: Detail Views
+      text: Obtaining detailed information for selected genes using multiple views
     file: ordino/Ordino_2.png
-    class: ""
-  - caption:
-      header: Detail Views & Filter
-      text: Open new detail views based on the selected items and filter, add scores, etc.
-    file: ordino/Ordino_3.png
     class: ""
 features:
   - header: Innovative Visualizations
