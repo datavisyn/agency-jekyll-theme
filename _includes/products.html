@@ -9,12 +9,14 @@
         <div class="row">
             {% for product in site.products %}
             <div class="product">
-                <div class="col-sm-12 text-center intro">
-                    {{ product }}
-                </div>
-                <div class="col-sm-12 product-content-wrapper">
+                <div class="row">
+                    <div class="col-sm-12 text-center intro">
+                        {{ product }}
+                    </div>
+
+                    <div class="col-sm-12 product-content-wrapper">
                     <div class="row">
-                        <div class="col-sm-12 text-center">
+                        <div class="col-sm-8 col-sm-offset-2 text-center">
                             <div id="{{ product.cssClass }}-showcase" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#{{ product.cssClass }}-showcase" data-slide-to="0" class="active"></li>
@@ -60,6 +62,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
+
+
             </div>
             {% endfor %}
         </div>
