@@ -20,26 +20,26 @@ images:
     file: ordino/Ordino_3.png
     class: ""
 features:
-  - header: Ranking and scoring
-    text: Flexibly rank and filter entities such as genes, cell lines, and tissues based on preloaded data, dynamically aggregated data, or additional meta-data
-    iconClass: sort-amount-desc
-  - header: Innovative visualizations
-    text: We integrate novel visualization techniques developed in the academic groups of the co-founders.
+  - header: Innovative Visualizations
+    text: Based on novel visualization techniques developed in the academic groups of the co-founders.
     iconClass: bar-chart
-  - header: Sharing and reproducibility
-    text: Provenance tracking is where Ordino shines. User can jump back to any state of previous analysis, continue the analysis, or share it with colleagues via the browser URL.
+  - header: Ranking and Scoring
+    text: Flexibly rank and filter entities such as genes, cell lines, and tissues.
+    iconClass: sort-amount-desc
+  - header: Sharing and Reproducibility
+    text: "Analysis tracking is where Ordino shines: refine histories and use them to revisit an analysis or share it with colleagues."
     iconClass: users
-  - header: Data sources
-    text: Load data from in-house databases, load public datasets such as TCGA and CCLE, or upload additional data from files. Your private version of Ordino can be extended to use your own data sources. Interested? Contact us!
+  - header: Data Sources
+    text: Load data from in-house databases, public datasets such as TCGA and CCLE, or from files. We also provide custom solutions to handle your own data sources.
     iconClass: database
-  - header: Annotations
-    text: Flexible mapping mechanism that deals with multi-mapping and various annotations (ENSEMBL, GeneSymbol, etc.)
+  - header: Identifier Mapping
+    text: Flexibly resolve mappings between various identifiers and annotations (ENSEMBL, GeneSymbol, etc.)
     iconClass: share-alt
   - header: Extensibility
-    text: The base platform can be extended via a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
+    text: The platform can be extended using a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
     iconClass: cubes
 ---
 
-### Ordino
+### Target Discovery Platform
 
-Ordino is a web-based platform and brings interactive visual data analysis to the next level. It allows to interactively calculate scores, rank, filter and visualize datasets. Internal and external detail views are seamlessly integrated in Ordino to provide all the data and visualizations needed to identify analysis targets.
+Our Target Discovery Platfrom is a web-based visual data analysis solution designed to score, rank, filter and visualize datasets that provides all the data and visualizations needed to identify analysis targets.
