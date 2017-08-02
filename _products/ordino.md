@@ -28,13 +28,13 @@ features:
     iconClass: bar-chart
   - header: Sharing and reproducibility
     text: Provenance tracking is where Ordino shines. User can jump back to any state of previous analysis, continue the analysis, or share it with colleagues via the browser URL.
-    iconClass: repeat
+    iconClass: users
   - header: Data sources
     text: Load data from in-house databases, load public datasets such as TCGA and CCLE, or upload additional data from files. Your private version of Ordino can be extended to use your own data sources. Interested? Contact us!
     iconClass: database
   - header: Annotations
     text: Flexible mapping mechanism that deals with multi-mapping and various annotations (ENSEMBL, GeneSymbol, etc.)
-    iconClass: exchange
+    iconClass: share-alt
   - header: Extensibility
     text: The base platform can be extended via a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
     iconClass: cubes
