@@ -42,4 +42,4 @@ features:
 
 ### Ordino
 
-Ordino is a platform designed to bring data analysis workflows to the next level. It allows to interactively calculate scores, rank, filter and visualize datasets. Internal and external detail views are seamlessly integrated in Ordino to provide all the data and visualizations needed to identify analysis targets.
+Ordino is a web-based platform and brings interactive visual data analysis to the next level. It allows to interactively calculate scores, rank, filter and visualize datasets. Internal and external detail views are seamlessly integrated in Ordino to provide all the data and visualizations needed to identify analysis targets.
