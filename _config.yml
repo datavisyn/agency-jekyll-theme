@@ -39,6 +39,8 @@ people:
   pic: gehlenborg
   position: Co-Founder
   social:
+    - title: home
+      url: http://gehlenborglab.org/
     - title: twitter
       url: http://twitter.com/nils_gehlenborg
     - title: linkedin
