@@ -16,10 +16,10 @@ images:
     class: ""
 features:
   - header: Innovative Visualizations
-    text: Based on novel visualization techniques developed in the academic groups of the co-founders.
+    text: Novel visualization techniques designed by our visualization experts based on state of the art visualization research.
     iconClass: bar-chart
   - header: Ranking and Scoring
-    text: Flexibly rank and filter entities such as genes, cell lines, and tissues.
+    text: Rank and filter entities such as genes, cell lines, and tissues based on a wide spectrum of attributes.
     iconClass: sort-amount-desc
   - header: Sharing and Reproducibility
     text: "Analysis tracking is where Ordino shines: refine histories and use them to revisit an analysis or share it with colleagues."
@@ -28,7 +28,7 @@ features:
     text: Load data from in-house databases, public datasets such as TCGA and CCLE, or from files. We also provide custom solutions to handle your own data sources.
     iconClass: database
   - header: Identifier Mapping
-    text: Flexibly resolve mappings between various identifiers and annotations (ENSEMBL, GeneSymbol, etc.)
+    text: Resolve mappings between various identifiers and annotations (Ensembl, gene symbols, and others).
     iconClass: share-alt
   - header: Extensibility
     text: The platform can be extended using a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
