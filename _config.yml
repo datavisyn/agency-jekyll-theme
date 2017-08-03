@@ -39,6 +39,8 @@ people:
   pic: gehlenborg
   position: Co-Founder
   social:
+    - title: home
+      url: http://gehlenborglab.org/
     - title: twitter
       url: http://twitter.com/nils_gehlenborg
     - title: linkedin
@@ -65,6 +67,10 @@ social:
 address:
   - line: Weingartshofstraße 27 1.2
   - line: 4020 Linz, Austria
+
+collections:
+  - products
+  - services
 
 supporter:
   name: tech2b
