@@ -1,5 +1,6 @@
 ---
 iconClass: bar-chart
+order: 1
 ---
 
 ### Visual Analysis Solutions
