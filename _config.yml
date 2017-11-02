@@ -48,12 +48,21 @@ people:
 
 - name: Christian Lehner
   pic: lehner
-  position: Developer
+  position: Full Stack Developer
   social:
     - title: twitter
       url: https://twitter.com/chri_lehner
     - title: linkedin
       url: https://www.linkedin.com/in/christianlehner
+
+- name: Stefan Luger
+  pic: luger
+  position: Full Stack Developer
+  social:
+    - title: twitter
+      url: https://twitter.com/Stefan_Luxi
+    - title: linkedin
+      url: https://at.linkedin.com/in/stefanluger
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
