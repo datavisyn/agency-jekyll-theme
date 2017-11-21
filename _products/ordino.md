@@ -37,7 +37,4 @@ features:
 
 ### Target Discovery Platform
 
-<p class="product-intro">Our Target Discovery Platform is a web-based visual data analysis solution designed to score, rank, filter and visualize datasets that provides all the data and visualizations needed to identify analysis targets.</p>
-
-
-
+<p class="reduced-width-text">Our Target Discovery Platform is a web-based visual data analysis solution designed to score, rank, filter and visualize datasets that provides all the data and visualizations needed to identify analysis targets.</p>
