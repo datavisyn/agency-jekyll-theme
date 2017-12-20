@@ -1,16 +1,6 @@
 #products {
     color: $muted_text;
 
-    .carousel-control span:first-child {
-        position: absolute;
-        right: 50%;
-        top: calc(50% - 10px);
-    }
-
-    .carousel-caption {
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
     .product-content-wrapper {
         margin: 20px 0;
     }
@@ -19,7 +9,7 @@
         font-size: 16px;
     }
 
-    div[id$="-showcase"], .reduced-width-text {
+    .reduced-width-text {
         width: 66.6667%;
         margin: 0 auto;
     }
@@ -40,6 +30,16 @@
         }
 
         h4, i {
+            color: white;
+        }
+    }
+
+    figure {
+        > img {
+            width: 100%;
+        }
+
+        h4 {
             color: white;
         }
     }
