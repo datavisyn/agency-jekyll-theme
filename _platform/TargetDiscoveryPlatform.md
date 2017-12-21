@@ -14,7 +14,9 @@ features:
   - header: Extensibility
     text: The platform can be extended using a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
     iconClass: cubes
-order: 1
+  - header: Data Sources
+    text: Load data from in-house databases, public datasets such as TCGA and CCLE, or from files. We also provide custom solutions to handle your own data sources.
+    iconClass: database
 ---
 
 ### Target Discovery Platform

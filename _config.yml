@@ -78,6 +78,7 @@ address:
   - line: 4020 Linz, Austria
 
 collections:
+  - platform
   - products
   - services
 

@@ -1,8 +1,17 @@
 #products {
     color: $muted_text;
 
+    .product {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
     .product-content-wrapper {
-        margin: 20px 0;
+        margin-top: 20px;
+
+        h4 {
+            color: white;
+        }
     }
 
     .intro p {
@@ -37,10 +46,6 @@
     figure {
         > img {
             width: 100%;
-        }
-
-        h4 {
-            color: white;
         }
     }
 }

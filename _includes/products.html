@@ -6,42 +6,46 @@
                 <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
             </div>
         </div>
-        <div class="row">
-            {% for product in site.products %}
-            <article class="product">
-                <div class="text-center intro">
-                    {{ product }}
-                </div>
-
-                <div class="product-content-wrapper">
-                    <div class="text-center">
-                        <div id="{{ product.cssClass }}-showcase">
-                            {% for image in product.images %}
-                                <figure class="item {{ image.class }}">
-                                    <img src="img/screenshots/{{ image.file }}" alt="">
-                                    <figcaption>
-                                        <h4>{{ image.caption.header }}</h4>
-                                        <p class="large">{{ image.caption.text }}</p>
-                                    </figcaption>
-                                </figure>
-                            {% endfor %}
-                        </div>
-                    </div>
-                    <div class="features text-center">
-                        <div class="row">
-                            {% for feature in product.features %}
-                            <div class="col-sm-4 feature">
-                                <i class="fa fa-{{feature.iconClass}}"></i>
-                                <h4>{{ feature.header }}</h4>
-                                <p>{{ feature.text }}</p>
-                            </div>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </article>
-            {% endfor %}
+        {% for platform in site.platform %}
+        <div class="text-center intro">
+            {{ platform }}
         </div>
+        <div class="features text-center">
+        {% for feature in platform.features %}
+        {% cycle 'add rows': '<div class="row">', '' %} <!-- workaround for adding Bootstrap's rows if the loop is in at an odd index -->
+            <div class="col-sm-6 feature">
+                <i class="fa fa-{{feature.iconClass}}"></i>
+                <h4>{{ feature.header }}</h4>
+                <p>{{ feature.text }}</p>
+            </div>
+            {% cycle 'close rows': '', '</div>' %} <!-- even index -->
+        {% endfor %}
+        </div>
+        {% endfor %}
+
+        {% for product in site.products %}
+        <article class="product">
+            <div class="text-center">
+                {{ product }}
+            </div>
+
+            <div class="row product-content-wrapper">
+                <div class="col-xs-12 col-md-6 {% cycle '', 'col-md-push-6' %}"> <!-- push column right at even loop index -->
+                    <h4>{{ product.header }}</h4>
+                    <p>{{ product.description }}</p>
+                </div>
+                <div class="col-xs-12 col-md-6 {% cycle '', 'col-md-pull-6' %}"> <!-- pull column left at even loop index -->
+                    <div id="{{ product.cssClass }}-showcase">
+                        {% for image in product.images %}
+                            <figure class="item {{ image.class }}">
+                                <img src="img/screenshots/{{ image.file }}" alt="">
+                            </figure>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
         <p class="reduced-width-text">
             Academic licences for research or educational use can be obtained free of charge. To request an academic licence or to get details and pricing please send an email to
             <a href="mailto:contact@datavisyn.io">contact@datavisyn.io</a>.
