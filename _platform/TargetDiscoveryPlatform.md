@@ -5,20 +5,20 @@ link:
   url: https://ordino-daily.caleydoapp.org
 images:
 features:
-  - header: Sharing and Reproducibility
-    text: "Analysis tracking is where Ordino shines: refine histories and use them to revisit an analysis or share it with colleagues."
-    iconClass: users
-  - header: Identifier Mapping
-    text: Resolve mappings between various identifiers and annotations (Ensembl, gene symbols, and others).
+  - header: Data Sources
+    text: Load data from in-house databases, upload data from files, or use public datasets such as TCGA and CCLE. Applications based on the TDP can also be extended to use custom data sources.
+    iconClass: database
+  - header: ID Mapping and Annotations
+    text: Flexible mapping mechanism that resolves multi-mappings between various annotations (Ensembl, Gene Symbol, etc.).
     iconClass: share-alt
   - header: Extensibility
-    text: The platform can be extended using a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
+    text: The base platform can be extended using a flexible plugin mechanism. Possible extensions include  specialized visualizations, data providers and scoring capabilities. 
     iconClass: cubes
-  - header: Data Sources
-    text: Load data from in-house databases, public datasets such as TCGA and CCLE, or from files. We also provide custom solutions to handle your own data sources.
-    iconClass: database
+  - header: Sharing and Reproducibility
+    text: Provenance tracking is where the TDP shines. User can share a state with colleagues via a URL, making collaboration seamless. They can also jump back to any state of a previous analysis, to reproduce findings or to continue the analysis.
+    iconClass: users
 ---
 
 ### Target Discovery Platform
 
-Our Target Discovery Platform (TDP) is designed to build web-based applications for the visual data analysis process. It provides a plugin and extension mechanism to extend its core capabilities and build rich applications that suit all needs. Futhermore it offers provenance tracking for reproducibility, such that applications building on the TDP support this tracking user actions, too. The TDP also provides a mapping mechanism between different identifiers of the same entities (e.g. Ensembl IDs and Gene Symbols) such that mappings between them can easily be resolved. 
+The Target Discovery Platform (TDP) is a platform designed to build web-based solutions for drug target discovery and further biomedical R&D applications. The platform provides a plugin and extension mechanism to extend its core capabilities and build feature-rich applications. The built-in provenance tracking technology offers reproducibility for data analysis sessions: all the steps between then start and the result of a session are captured and can be revisited at any time. The TDP also provides easy to use mappings between different identifiers so that our tools are compatible with a wide range of datasets. 
