@@ -2,6 +2,7 @@
 ---
 
 $muted_text: #{{ site.data.template.color.muted }};
+$primary_color: #{{ site.data.template.color.primary }};
 
 @import "imprint";
 @import "products";

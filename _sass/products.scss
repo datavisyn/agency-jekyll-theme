@@ -61,4 +61,14 @@
             width: 100%;
         }
     }
+
+    .demo {
+        text-align: center;
+        margin-top: 2em;
+
+        .btn {
+            color: #fff;
+            background-color: $primary_color;
+        }
+    }
 }
