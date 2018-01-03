@@ -1,6 +1,12 @@
 #products {
     color: $muted_text;
 
+    .screenshots {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
     .product {
         margin-top: 20px;
         margin-bottom: 60px;
@@ -43,7 +49,14 @@
         }
     }
 
-    figure {
+    .screenshots a {
+
+        &:first-child {
+            width: 100%;
+        }
+
+        width: 30%;
+        margin: 5px;
         > img {
             width: 100%;
         }
