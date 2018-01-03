@@ -1,14 +1,14 @@
 ---
-cssClass: dtiles
+title: dTiles
 link:
-  text: Try it yourself
+  text: Demo
   url: https://dtiles.app.datavisyn.io
 images:
   - file: dTiles/dTiles.png
-    class:
-order: 2
-description: dTiles is an application that gives an overview to data by showing them in synchronized views composed to dynamic dashboards. Dashboards can be reused and shared by saving the configurations and loading them with different datasets. dTiles was developed to provide a clean user interface to fit the needs of different user groups - from beginners to experts.
-header: Obtaining detailed information for selected entities using multiple views composed to dashboards
+    title: Dashboard showing three views for the selected gene
+order: 1
+description: dTiles  shows an overview of your data by leveraging synchronized views to composed dynamic dashboards. Dashboards can be reused and shared by saving the configurations and loading them with different datasets. dTiles provides a clean user interface to fit the needs of different user groups – from beginners to experts.
+header: Dynamically composing rich dashboards
 ---
 
 ### dTiles
