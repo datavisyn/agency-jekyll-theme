@@ -3,6 +3,6 @@ iconClass: bar-chart
 order: 1
 ---
 
-### Visual Analysis Solutions
+### Custom Visual Analysis Solutions and Components
 
-We develop and implement visual analysis solutions for biological data that are specifically tailored to our customers’ needs. 
+We take care of the conception and implementation of visual analysis solutions that are specifically tailored to our customers’ needs. 
