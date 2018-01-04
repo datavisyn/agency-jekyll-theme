@@ -21,4 +21,4 @@ features:
 
 ### Target Discovery Platform
 
-The Target Discovery Platform (TDP) is a platform designed to build web-based solutions for drug target discovery and further biomedical R&D applications. The platform provides a plugin and extension mechanism to extend its core capabilities and build feature-rich applications. The built-in provenance tracking technology offers reproducibility for data analysis sessions: all the steps between then start and the result of a session are captured and can be revisited at any time. The TDP also provides easy to use mappings between different identifiers so that our tools are compatible with a wide range of datasets. 
+The Target Discovery Platform (TDP) is a platform designed to build web-based visualization and analysis solutions for drug target discovery and other biomedical R&D applications. The platform provides a plugin and extension mechanism to extend its core capabilities and build feature-rich applications.
