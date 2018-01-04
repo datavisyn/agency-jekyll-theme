@@ -6,7 +6,7 @@ link:
 images:
   primary:
       file: dTiles/dTiles_dashboard.png
-      title: Dashboard showing three views for the selected genes
+      title: Dashboard showing three views for the selected genes.
   secondary:
       - file: dTiles/dTiles_multiple_dashboards.png
         title: dTiles allows to open and manage multiple dashboards at once.

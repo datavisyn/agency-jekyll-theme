@@ -6,7 +6,7 @@ link:
 images:
   primary:
       file: ordino/Ordino.png
-      title: Adding different columns to the main view
+      title: Adding different columns to the main view.
   secondary:
       - file: ordino/Ordino_detail_view.png
         title: After selecting an item, detail views various detail views can be opened to further analyze it.
