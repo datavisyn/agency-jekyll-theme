@@ -2,7 +2,7 @@
 title: ordino
 link:
   text: Demo
-  url: https://ordino-daily.caleydoapp.org
+  url: https://ordino.caleydoapp.org
 images:
   primary:
       file: ordino/Ordino.png
