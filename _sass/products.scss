@@ -1,12 +1,6 @@
 #products {
     color: $muted_text;
 
-    .screenshots {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-    }
-
     .product {
         margin-top: 20px;
         margin-bottom: 60px;
@@ -48,22 +42,27 @@
         }
     }
 
-    .screenshots a {
+    .screenshots{
+        margin: 25px 0;
+        display: flex;
+        justify-content: space-between;
 
-        &:first-child {
-            width: 100%;
+        .screenshot {
+            width: 30%;
         }
+    }
 
-        width: 30%;
-        margin: 5px;
-        > img {
-            width: 100%;
+    .screenshot {
+        a {
+            > img {
+                width: 100%;
+            }
         }
     }
 
     .demo {
-        text-align: center;
-        margin-top: 2em;
+        text-align: right;
+        margin-top: 10px;
 
         > .btn {
             color: #fff;
