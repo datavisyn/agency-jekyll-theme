@@ -1,44 +1,22 @@
 ---
-cssClass: ordino
+title: ordino
 link:
-  text: Try it yourself
+  text: Demo
   url: https://ordino-daily.caleydoapp.org
 images:
-  - caption:
-      header: Interactive Rank Visualization
-      text: Prioritizing and filtering genes based on multiple data attributes
-    file: ordino/Ordino_1.png
-    class: active
-  - caption:
-      header: Detail Views
-      text: Obtaining detailed information for selected genes using multiple views
-    file: ordino/Ordino_2.png
-    class: ""
-features:
-  - header: Innovative Visualizations
-    text: Novel visualization techniques designed by our visualization experts based on state of the art visualization research.
-    iconClass: bar-chart
-  - header: Ranking and Scoring
-    text: Rank and filter entities such as genes, cell lines, and tissues based on a wide spectrum of attributes.
-    iconClass: sort-amount-desc
-  - header: Sharing and Reproducibility
-    text: "Analysis tracking is where Ordino shines: refine histories and use them to revisit an analysis or share it with colleagues."
-    iconClass: users
-  - header: Data Sources
-    text: Load data from in-house databases, public datasets such as TCGA and CCLE, or from files. We also provide custom solutions to handle your own data sources.
-    iconClass: database
-  - header: Identifier Mapping
-    text: Resolve mappings between various identifiers and annotations (Ensembl, gene symbols, and others).
-    iconClass: share-alt
-  - header: Extensibility
-    text: The platform can be extended using a flexible plugin mechanism. Possible extensions can be additional visualizations, data providers, and scoring capabilities.
-    iconClass: cubes
+  primary:
+      file: ordino/Ordino.png
+      title: Adding different columns to the main view
+  secondary:
+      - file: ordino/Ordino_detail_view.png
+        title: After selecting an item, detail views various detail views can be opened to further analyze it
+      - file: ordino/Ordino_ranking_detail_view.png
+        title: Data with several added columns shown in a ranking view
+      - file: ordino/Ordino_welcome_page.png
+        title: Start the analysis with a set of entities, upload a new dataset or continue a temporary or persistent session
+order: 2
+description: Ordino is a visual data analysis solution for visualizing and ranking tabular data.  It computes scores based on different parameters, ranks and filters them to subsequently identify new analysis targets.
+header: Data-driven prioritization of genes, cell lines and tissues
 ---
 
-### Target Discovery Platform
-
-Our Target Discovery Platfrom is a web-based visual data analysis solution designed to score, rank, filter and visualize datasets that provides all the data and visualizations needed to identify analysis targets.
-
-
-
-
+### Ordino
