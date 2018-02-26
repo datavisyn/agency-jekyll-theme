@@ -9,9 +9,13 @@
         </div>
         <div class="row">
             {% for customer in site.customers %}
-                <div class="col-sm-3">
-                    <img src="img/customers/{{ customer.logo }}" alt="{{ customer.name }}">
+            <div class="col-sm-12">
+                <div class="customer">
+                    <a href="https://www.bayer.com/" target="_blank" title="Bayer AG">
+                        <img src="img/customers/{{ customer.logo }}" alt="{{ customer.name }}">
+                    </a>
                 </div>
+            </div>
             {% endfor %}
         </div>
     </div>
