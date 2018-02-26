@@ -81,6 +81,7 @@ collections:
   - platform
   - products
   - services
+  - customers
 
 supporter:
   name: tech2b
