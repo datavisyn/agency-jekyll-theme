@@ -8,6 +8,7 @@ $primary_color: #{{ site.data.template.color.primary }};
 @import "products";
 @import "services";
 @import "customers";
+@import "footer";
 
 
 h3 {

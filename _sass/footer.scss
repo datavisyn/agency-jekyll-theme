@@ -1,0 +1,11 @@
+.row {
+  padding-top: 1em;
+  > .partner, .supporter {
+    font-size: 13px;
+    padding-bottom: 1em;
+    img {
+      padding-left: 1em;
+      max-height: 48px;
+    }
+  }
+}

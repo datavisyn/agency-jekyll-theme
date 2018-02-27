@@ -1,9 +1,16 @@
   <footer>
         <div class="container">
             <div class="row">
+                <div class="col-md-6 partner">
+                    <span class="text-muted">In collaboration with<a href="{{ site.partner.url }}" target="_blank" title="{{ site.partner.name }}"><img src="img/partners/jku-logo-white.png" alt="{{ site.partner.name }}"></a></span>
+                </div>
+                <div class="col-md-6 supporter">
+                    <span class="text-muted">Supported by<a href="{{ site.supporter.url }}" target="_blank" title="{{ site.supporter.name }}"><img src="img/partners/tech2b.png" alt="{{ site.supporter.name }}"></a></span>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-4">
                     <span class="text-muted copyright">Copyright &copy; {{ site.title }} GmbH {{ 'now' | date: "%Y" }}</span><br>
-                    <span class="text-muted">Supported by <a href="{{ site.supporter.url }}" target="_blank">{{ site.supporter.name }}</a></span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
