@@ -12,6 +12,9 @@ people:
 - name: Marc Streit
   pic: streit
   position: CEO and Co-Founder
+  affiliation:
+    title: Professor at Johannes Kepler University Linz
+    url: https://www.jku.at/en/institute-of-computer-graphics/
   social:
     - title: home
       url: http://marc-streit.com
@@ -27,6 +30,9 @@ people:
 - name: Alexander Lex
   pic: lex
   position: Co-Founder
+  affiliation:
+    title: Professor at University of Utah
+    url: http://vdl.sci.utah.edu/team/lex/
   social:
     - title: home
       url: http://alexander-lex.com
@@ -38,6 +44,9 @@ people:
 - name: Nils Gehlenborg
   pic: gehlenborg
   position: Co-Founder
+  affiliation:
+    title: Professor at Harvard Medial School
+    url: http://gehlenborglab.org/
   social:
     - title: home
       url: http://gehlenborglab.org/
