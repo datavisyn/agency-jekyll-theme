@@ -1,4 +1,4 @@
 ---
 name: Bayer
-logo: bayer_white.png
+logo: Bayer_Cross_Wht_100917.png
 ---

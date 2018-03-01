@@ -42,3 +42,6 @@ Icon
 Gemfile.lock
 
 .sass-cache/
+
+# Jekyll
+.jekyll-metadata
