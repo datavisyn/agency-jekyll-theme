@@ -90,10 +90,7 @@ collections:
   - platform
   - products
   - services
-
-supporter:
-  name: tech2b
-  url: http://tech2b.at
+  - partners
 
 # Build settings
 markdown: kramdown

@@ -1,0 +1,27 @@
+#partners {
+  .partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    .partner {
+      text-align: center;
+      width: 250px;
+      margin: 20px;
+
+      &::before {
+        color: #b4bcc2;
+        font-size: 13px;
+      }
+
+      img {
+        max-height: 70px;
+      }
+    }
+
+    .partner.bayer img {
+      max-height: 90px;
+    }
+  }
+}
