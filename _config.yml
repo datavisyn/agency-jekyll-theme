@@ -90,14 +90,7 @@ collections:
   - platform
   - products
   - services
-  - customers
-
-partner:
-  shortname: JKU Linz
-  name: Johannes Kepler University Linz
-supporter:
-  name: tech2b
-  url: http://tech2b.at
+  - partners
 
 # Build settings
 markdown: kramdown
