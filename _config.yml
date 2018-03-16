@@ -13,7 +13,7 @@ people:
   pic: streit
   position: CEO and Co-Founder
   affiliation:
-    title: Professor at Johannes Kepler University Linz
+    title: Faculty at Johannes Kepler University Linz
     url: https://www.jku.at/en/institute-of-computer-graphics/
   social:
     - title: home
@@ -31,7 +31,7 @@ people:
   pic: lex
   position: Co-Founder
   affiliation:
-    title: Professor at University of Utah
+    title: Faculty at University of Utah
     url: http://vdl.sci.utah.edu/team/lex/
   social:
     - title: home
@@ -45,8 +45,9 @@ people:
   pic: gehlenborg
   position: Co-Founder
   affiliation:
-    title: Professor at Harvard Medical School
+    title: Faculty at Harvard Medical School
     url: http://gehlenborglab.org/
+
   social:
     - title: home
       url: http://gehlenborglab.org/
