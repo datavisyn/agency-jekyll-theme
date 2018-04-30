@@ -2,7 +2,7 @@
 title: ordino
 link:
   text: Demo
-  url: https://ordino.caleydoapp.org
+  url: https://ordino.app.datavisyn.io
 images:
   primary:
       file: ordino/Ordino.png
