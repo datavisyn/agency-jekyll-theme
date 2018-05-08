@@ -1,0 +1,21 @@
+.team {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .team-member {
+    width: 100%;
+  }
+}
+
+@media (screen and min-width: 768px) {
+  .team .team-member {
+    width: 50%;
+  }
+}
+
+@media (screen and min-width: 992px) {
+  .team .team-member {
+    width: 33%;
+  }
+}

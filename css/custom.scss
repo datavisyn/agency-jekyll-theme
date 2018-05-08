@@ -12,6 +12,7 @@ $primary_color: #{{ site.data.template.color.primary }};
 @import "jobs";
 @import "features";
 @import "footer";
+@import "team";
 
 body {
     color: $muted_text;
