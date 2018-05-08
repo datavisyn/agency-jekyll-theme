@@ -4,13 +4,20 @@
 $muted_text: #{{ site.data.template.color.muted }};
 $primary_color: #{{ site.data.template.color.primary }};
 
+@import "header";
 @import "imprint";
 @import "products";
 @import "services";
 @import "partners";
+@import "jobs";
+@import "features";
 @import "footer";
 
+body {
+    color: $muted_text;
+}
 
-h3 {
+
+h1, h2, h3 {
     color: #fff;
 }
