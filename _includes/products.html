@@ -10,7 +10,7 @@
         <div class="text-center intro">
             {{ platform }}
         </div>
-        <div class="features text-center">
+        <div class="features">
         {% for feature in platform.features %}
         {% cycle 'add rows': '<div class="row">', '' %} <!-- workaround for adding Bootstrap's rows if the loop is in at an odd index -->
             <div class="col-sm-6 feature">

@@ -1,0 +1,15 @@
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .feature {
+    width: 33%;
+  }
+}
+
+.job-ad {
+  h4 {
+    color: white;
+  }
+}

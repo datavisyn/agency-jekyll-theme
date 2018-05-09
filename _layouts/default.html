@@ -4,9 +4,18 @@
   {% include head.html %}
 
 
-    <body id="page-top" class="index bg-darkest-gray">
+  <body id="page-top" class="index bg-darkest-gray">
 
+  {% include header.html %}
+
+  <div class="container">
     {{content}}
+  </div>
 
-    </body>
+  {% include footer.html %}
+  {% include modals.html %}
+  {% include js.html %}
+
+
+  </body>
 </html>

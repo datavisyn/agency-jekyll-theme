@@ -8,8 +8,14 @@
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+        var $href = $anchor.attr('href');
+
+        // use the last part of the URL (the hash) to scroll to sections instead of relying that it's always only the hash
+        var $urlParts = $href.split('/');
+        var $hash = $urlParts[$urlParts.length - 1];
+
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
+            scrollTop: $($hash).offset().top
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
