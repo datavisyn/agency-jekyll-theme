@@ -4,8 +4,12 @@
     color: $muted_text;
 
     .product {
-        margin-top: 20px;
-        margin-bottom: 60px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+
+        &:last-of-type {
+            padding-bottom: 60px;
+        }
     }
 
     .product-content-wrapper {
