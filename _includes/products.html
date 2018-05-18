@@ -35,7 +35,7 @@
                     <p>{{ product.description }}</p>
 
                     <div class="demo">
-                        <a href="{{ product.link.url }}" class="btn">{{ product.link.text }}</a>
+                        <a href="{{ product.link.url }}" class="btn" target="_blank" rel="noopener">{{ product.link.text }}</a>
                     </div>
                     <div class="screenshots">
                         {% for image in product.images.secondary %}
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %}"> <!-- pull column left at even loop index -->
-                    <a href="img/screenshots/{{ product.images.primary.file }}" data-lightbox="{{ product.title }}" data-title="{{ product.images.primary.title }}">
+                    <a href="img/screenshots/{{ product.images.primary.file }}2" data-lightbox="{{ product.title }}" data-title="{{ product.images.primary.title }}">
                         <img src="img/screenshots/{{ product.images.primary.file }}" alt="">
                     </a>
                 </div>
