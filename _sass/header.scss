@@ -1,5 +1,20 @@
 .hiring {
- margin-top: 2em;
- font-size: 2em;
- color: $primary_color;
+    margin-top: 2em;
+    font-size: 2em;
+    color: $primary_color;
+}
+
+header.banner-header {
+    // full height for better experience
+    height: 100vh;
+}
+
+header .intro-text .intro-lead-in {
+    padding-top: 30vh;
+}
+
+@media (min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        padding-top: 15vh;
+    }
 }

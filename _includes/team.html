@@ -14,7 +14,7 @@
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
                     <h4>{{ member.name }}</h4>
                     <p class="text-muted" style="margin-bottom:0;">{{ member.position }}</p>
-                    <a href="{{ affiliation.url }}" target="_blank" class="text-muted">{{ affiliation.title }}</a>
+                    <a href="{{ affiliation.url }}" target="_blank" class="text-muted" rel="noopener">{{ affiliation.title }}</a>
                     <ul class="list-inline social-buttons">
                         {% for network in member.social %}
                         <li>

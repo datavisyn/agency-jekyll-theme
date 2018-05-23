@@ -2,7 +2,7 @@
 cssClass: tdp
 link:
   text: Try it yourself
-  url: https://ordino-daily.caleydoapp.org
+  url: https://ordino.app.datavisyn.io
 images:
 features:
   - header: Data Sources

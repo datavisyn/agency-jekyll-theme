@@ -7,7 +7,7 @@
             </div>
         </div>
         {% for platform in site.platform %}
-        <div class="text-center intro">
+        <div class="text-center intro" id="{{platform.cssClass}}">
             {{ platform }}
         </div>
         <div class="features">
@@ -24,7 +24,7 @@
         {% endfor %}
 
         {% for product in site.products %}
-        <article class="product">
+        <article class="product" id="{{ product.title }}">
             <div class="text-center">
                 {{ product }}
             </div>
@@ -35,13 +35,13 @@
                     <p>{{ product.description }}</p>
 
                     <div class="demo">
-                        <a href="{{ product.link.url }}" class="btn">{{ product.link.text }}</a>
+                        <a href="{{ product.link.url }}" class="btn" target="_blank" rel="noopener">{{ product.link.text }}</a>
                     </div>
                     <div class="screenshots">
                         {% for image in product.images.secondary %}
                             <div class="screenshot">
                                 <a href="img/screenshots/{{ image.file }}" data-lightbox="{{ product.title }}" data-title="{{ image.title }}">
-                                    <img src="img/screenshots/{{ image.file }}" alt="">
+                                    <img src="img/screenshots/{{ image.thumbnail }}" alt="{{ image.title }}">
                                 </a>
                             </div>
                         {% endfor %}
@@ -49,7 +49,7 @@
                 </div>
                 <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %}"> <!-- pull column left at even loop index -->
                     <a href="img/screenshots/{{ product.images.primary.file }}" data-lightbox="{{ product.title }}" data-title="{{ product.images.primary.title }}">
-                        <img src="img/screenshots/{{ product.images.primary.file }}" alt="">
+                        <img src="img/screenshots/{{ product.images.primary.thumbnail }}" alt="{{ product.images.primary.title }}">
                     </a>
                 </div>
             </div>

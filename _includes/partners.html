@@ -10,7 +10,7 @@
         <div class="row partners">
             {% for partner in site.partners %}
             <div class="partner {{ partner.class }}">
-                <a href="{{ partner.link }}" target="_blank" title="{{ partner.name }}">
+                <a href="{{ partner.link }}" target="_blank" title="{{ partner.name }}" rel="noopener">
                     <img src="img/partners/{{ partner.logo }}" alt="{{ partner.name }}">
                 </a>
             </div>
