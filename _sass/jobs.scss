@@ -1,10 +1,12 @@
+@import 'mixins';
+
 .benefits {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
   .feature {
-    width: 33%;
+    width: 100%;
   }
 }
 
@@ -13,3 +15,5 @@
     color: white;
   }
 }
+
+@include responsiveness('benefits', 'feature');
