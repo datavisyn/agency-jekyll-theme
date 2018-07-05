@@ -8,7 +8,28 @@
                 </div>
             </div>
             <div class="team">
-                {% for member in site.people %}
+                {% for member in site.founders %}
+                {% assign affiliation = member.affiliation %}
+                <div class="team-member">
+                    <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                    <h4>{{ member.name }}</h4>
+                    <p class="text-muted" style="margin-bottom:0;">{{ member.position }}</p>
+                    <a href="{{ affiliation.url }}" target="_blank" class="text-muted" rel="noopener">{{ affiliation.title }}</a>
+                    <ul class="list-inline social-buttons">
+                        {% for network in member.social %}
+                        <li>
+                            <a href="{{ network.url }}">
+                                <i class="fa fa-{{ network.title }}"></i>
+                            </a>
+                        </li>
+                        {% endfor %}
+
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="team">
+                {% for member in site.employees %}
                 {% assign affiliation = member.affiliation %}
                 <div class="team-member">
                     <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">

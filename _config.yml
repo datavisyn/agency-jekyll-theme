@@ -8,7 +8,7 @@ description: "We develop data visualization solutions for applications in pharma
 
 
 # Team names, titles and social links
-people:
+founders:
 - name: Marc Streit
   pic: streit
   position: CEO and Co-Founder
@@ -56,6 +56,11 @@ people:
     - title: linkedin
       url: http://www.linkedin.com/in/ngehlenborg
 
+employees:
+- name: Anita Steiner
+  pic: steiner
+  position: Project Manager
+
 - name: Christian Lehner
   pic: lehner
   position: Software Engineer
@@ -74,10 +79,6 @@ people:
     - title: linkedin
       url: https://at.linkedin.com/in/stefanluger
 
-- name: Anita Steiner
-  pic: steiner
-  position: Project Manager
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -87,7 +88,7 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Weingartshofstraße 27 1.2
+  - line: Huemerstraße 3-5
   - line: 4020 Linz, Austria
 
 collections:

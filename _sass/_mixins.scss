@@ -1,13 +1,13 @@
 @mixin responsiveness($namespace, $elementClass) {
     @media screen and (min-width: 768px) {
         .#{$namespace} .#{$elementClass} {
-            width: 50%;
+            width: 33%;
         }
     }
     
     @media screen and (min-width: 992px) {
         .#{$namespace} .#{$elementClass} {
-            width: 33%;
+            width: 25%;
         }
     }
 }

@@ -649,7 +649,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    max-height: 180px;
+    max-height: 160px;
     border: 0px solid #fff;
     filter: grayscale(100%);
 }
