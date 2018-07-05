@@ -74,6 +74,9 @@ people:
     - title: linkedin
       url: https://at.linkedin.com/in/stefanluger
 
+- name: Anita Steiner
+  pic: steiner
+  position: Project Manager
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
