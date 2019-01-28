@@ -16,4 +16,14 @@
   }
 }
 
-@include responsiveness('benefits', 'feature');
+@media screen and (min-width: 576px) {
+  .benefits .feature {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .benefits .feature {
+    width: 33%;
+  }
+}

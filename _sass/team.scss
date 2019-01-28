@@ -10,4 +10,14 @@
   }
 }
 
-@include responsiveness('team', 'team-member');
+@media screen and (min-width: 768px) {
+  .team .team-member {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team .team-member {
+    width: 25%;
+  }
+}
