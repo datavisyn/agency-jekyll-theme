@@ -1,12 +1,16 @@
 @import 'mixins';
 
-.benefits {
+.features {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 
   .feature {
     width: 100%;
+  }
+
+  .feature:last-child {
+    margin-right: auto;
   }
 }
 
@@ -17,13 +21,13 @@
 }
 
 @media screen and (min-width: 576px) {
-  .benefits .feature {
+  .features .feature {
     width: 50%;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .benefits .feature {
+  .features .feature {
     width: 33%;
   }
 }
