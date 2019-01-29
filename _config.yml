@@ -47,14 +47,13 @@ founders:
   affiliation:
     title: Faculty at Harvard Medical School
     url: http://gehlenborglab.org/
-
-social:
-  - title: home
-    url: http://gehlenborglab.org/
-  - title: twitter
-    url: http://twitter.com/nils_gehlenborg
-  - title: linkedin
-    url: http://www.linkedin.com/in/ngehlenborg
+  social:
+    - title: home
+      url: http://gehlenborglab.org/
+    - title: twitter
+      url: http://twitter.com/nils_gehlenborg
+    - title: linkedin
+      url: http://www.linkedin.com/in/ngehlenborg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
