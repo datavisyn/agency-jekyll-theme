@@ -48,15 +48,12 @@ id: jobs
 
     <h2>Openings</h2>
     <div class="features">
+        {% for job in site.jobs %}
         <div class="feature">
             <i class="fa fa-code"></i>
-            <h4><a href="/jobs/junior-full-stack-developer#job">Junior Full Stack Developer</a></h4>
+            <h4><a href="{{job.link}}">{{job.title}}</a></h4>
         </div>
-
-        <div class="feature">
-            <i class="fa fa-code"></i>
-            <h4><a href="/jobs/senior-full-stack-developer#job">Senior Full Stack Developer</a></h4>
-        </div>
+        {% endfor %}
     </div>
 
 </section>

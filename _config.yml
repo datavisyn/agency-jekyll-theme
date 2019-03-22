@@ -1,59 +1,58 @@
 url: http://datavisyn.io
-baseurl: ""
+baseurl: ''
 
 # Site settings
 title: datavisyn
 email: contact@datavisyn.io
-description: "We develop data visualization solutions for applications in pharmaceutical and biomedical R&D."
-
+description: 'We develop data visualization solutions for applications in pharmaceutical and biomedical R&D.'
 
 # Team names, titles and social links
 founders:
-- name: Marc Streit
-  pic: streit
-  position: CEO and Co-Founder
-  affiliation:
-    title: Faculty at Johannes Kepler University Linz
-    url: https://www.jku.at/en/institute-of-computer-graphics/
-  social:
-    - title: home
-      url: http://marc-streit.com
-    - title: twitter
-      url: http://twitter.com/marc_streit
-    - title: linkedin
-      url: http://www.linkedin.com/in/marcstreit
+  - name: Marc Streit
+    pic: streit
+    position: CEO and Co-Founder
+    affiliation:
+      title: Faculty at Johannes Kepler University Linz
+      url: https://www.jku.at/en/institute-of-computer-graphics/
+    social:
+      - title: home
+        url: http://marc-streit.com
+      - title: twitter
+        url: http://twitter.com/marc_streit
+      - title: linkedin
+        url: http://www.linkedin.com/in/marcstreit
 
-- name: Samuel Gratzl
-  pic: gratzl
-  position: Co-Founder
+  - name: Samuel Gratzl
+    pic: gratzl
+    position: Co-Founder
 
-- name: Alexander Lex
-  pic: lex
-  position: Co-Founder
-  affiliation:
-    title: Faculty at University of Utah
-    url: http://vdl.sci.utah.edu/team/lex/
-  social:
-    - title: home
-      url: http://alexander-lex.com
-    - title: twitter
-      url: http://twitter.com/alexander_lex
-    - title: linkedin
-      url: https://www.linkedin.com/in/alexander-lex-83961533
+  - name: Alexander Lex
+    pic: lex
+    position: Co-Founder
+    affiliation:
+      title: Faculty at University of Utah
+      url: http://vdl.sci.utah.edu/team/lex/
+    social:
+      - title: home
+        url: http://alexander-lex.com
+      - title: twitter
+        url: http://twitter.com/alexander_lex
+      - title: linkedin
+        url: https://www.linkedin.com/in/alexander-lex-83961533
 
-- name: Nils Gehlenborg
-  pic: gehlenborg
-  position: Co-Founder
-  affiliation:
-    title: Faculty at Harvard Medical School
-    url: http://gehlenborglab.org/
-  social:
-    - title: home
+  - name: Nils Gehlenborg
+    pic: gehlenborg
+    position: Co-Founder
+    affiliation:
+      title: Faculty at Harvard Medical School
       url: http://gehlenborglab.org/
-    - title: twitter
-      url: http://twitter.com/nils_gehlenborg
-    - title: linkedin
-      url: http://www.linkedin.com/in/ngehlenborg
+    social:
+      - title: home
+        url: http://gehlenborglab.org/
+      - title: twitter
+        url: http://twitter.com/nils_gehlenborg
+      - title: linkedin
+        url: http://www.linkedin.com/in/ngehlenborg
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -61,6 +60,13 @@ social:
     url: http://twitter.com/datavisyn
   - title: github
     url: http://github.com/datavisyn
+
+# job openings
+jobs:
+  - title: Junior Full Stack Developer
+    link: /downloads/Job Ad DE.pdf
+  - title: Senior Full Stack Developer
+    link: /downloads/Job Ad DE.pdf # or for the HTML site: /jobs/senior-full-stack-developer#job
 
 # Postal address (add as many lines as necessary)
 address:
