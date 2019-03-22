@@ -62,6 +62,12 @@ social:
   - title: github
     url: http://github.com/datavisyn
 
+jobs:
+  - title: Junior Full Stack Developer
+    link: /downloads/Job Ad DE.pdf
+  - title: Senior Full Stack Developer
+    link: /downloads/Job Ad DE.pdf # or for the HTML site: /jobs/senior-full-stack-developer#job
+
 # Postal address (add as many lines as necessary)
 address:
   - line: Huemerstraße 3-5
