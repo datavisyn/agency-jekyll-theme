@@ -70,6 +70,7 @@ jobs:
 
 # Postal address (add as many lines as necessary)
 address:
+  - line: Open Innovation Center (JKU)
   - line: Altenbergerstraße 69
   - line: 4040 Linz, Austria
 
