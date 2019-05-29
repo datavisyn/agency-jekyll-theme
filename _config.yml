@@ -70,8 +70,8 @@ jobs:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Huemerstraße 3-5
-  - line: 4020 Linz, Austria
+  - line: Altenbergerstraße 69
+  - line: 4040 Linz, Austria
 
 collections:
   - platform
