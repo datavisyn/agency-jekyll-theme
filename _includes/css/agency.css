@@ -71,7 +71,7 @@ h6 {
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: #FFF;
 }
 
 .btn-primary {
@@ -177,14 +177,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Monda","Helvetica Neue",Helvetica,Arial;
     color: #fff;
+    padding: 0;
 }
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #73818f;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -262,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #73818f;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -272,26 +272,22 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
-    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #454545 100%);
-    /*background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
+    color: #252759;
+    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #454545 80%); 
+    filter: invert(100%);
 }
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: #252759;
+    filter: invert(100%);
 }
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
+    color: #252759;
     font-weight: 100;
     font-size: 22px;
     line-height: 25px;
@@ -310,11 +306,13 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        color: #252759;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
+        color: #252759;
         font-size: 40px;
         line-height: 40px;
     }
@@ -346,6 +344,9 @@ section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
     color: #ccc;
+}
+section h3.section-subheading a {
+    color: #e4e7ea;
 }
 
 @media(min-width:768px) {
@@ -384,8 +385,9 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: #{{ site.data.template.color.primary }}; /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -655,14 +657,14 @@ section h3.section-subheading {
 }
 
 section .section-heading {
-    color: #fff;
+    color: #252759;
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
-    color: #FFCC05;
+    color: #252759;
 }
 
 .team-member p {
@@ -741,17 +743,20 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #222;
+    background-color: #73818f;
+    color: #f0f3f5;
 }
 
 footer span.copyright {
     text-transform: none;
+    color: #252759;
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
+    color: #f0f3f5;
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
