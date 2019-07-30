@@ -41,14 +41,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #252759;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #1CC2BF;
 }
 
 h1,
@@ -86,11 +86,11 @@ h6 {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
-.btn-primary.active,
+.btn-primary.active,#{{ site.data.template.color.primary }}#{{ site.data.template.color.primary }}
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #1CC2BF;
 }
 
 .btn-primary:active,
@@ -189,7 +189,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #252759;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -224,12 +224,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #1CC2BF;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #fff;ffffff
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -243,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: #73818f;
+        background-color: #white;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -262,7 +262,8 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #73818f;
+        background-color: #white;
+        border-bottom: 1.5px solid #1CC2BF;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -343,10 +344,11 @@ section h3.section-subheading {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-weight: 400;
-    color: #ccc;
+    color: #252759;
+    filter: invert(100%);
 }
 section h3.section-subheading a {
-    color: #e4e7ea;
+    color: #252759;
 }
 
 @media(min-width:768px) {
@@ -676,14 +678,18 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: black;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    filter: invert(100%);
+    margin-bottom: 25px;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #252759;
+    filter: invert(100%);
 }
 
 section#contact .form-group {
@@ -743,8 +749,9 @@ section#contact .text-danger {
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #73818f;
-    color: #f0f3f5;
+    background-color: white;
+    color: #252759;
+    border-top: 1.5px solid #1CC2BF;
 }
 
 footer span.copyright {
@@ -774,9 +781,10 @@ ul.social-buttons li a {
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
+    margin-top: 10px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #1CC2BF;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -823,7 +831,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
