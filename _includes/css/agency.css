@@ -41,14 +41,14 @@ a.active {
 }
 
 a {
-    color: #252759;
+    color: #589CFF;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #1CC2BF;
+    color: #589CFF;
 }
 
 h1,
@@ -90,7 +90,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
-    background-color: #1CC2BF;
+    background-color: #589CFF;
 }
 
 .btn-primary:active,
@@ -224,7 +224,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #1CC2BF;
+    color: #589CFF;
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -254,6 +254,7 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        padding-top: 10px;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -263,7 +264,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink {
         padding: 10px 0;
         background-color: #white;
-        border-bottom: 1.5px solid #1CC2BF;
+        border-bottom: 1.5px solid #589CFF;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -751,7 +752,7 @@ footer {
     text-align: center;
     background-color: white;
     color: #252759;
-    border-top: 1.5px solid #1CC2BF;
+    border-top: 1.5px solid #589CFF;
 }
 
 footer span.copyright {
@@ -784,7 +785,7 @@ ul.social-buttons li a {
     margin-top: 10px;
     outline: 0;
     color: #fff;
-    background-color: #1CC2BF;
+    background-color: #589CFF;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
