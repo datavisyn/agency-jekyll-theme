@@ -754,19 +754,22 @@ footer {
     padding: 25px 0;
     text-align: center;
     color: #252759;
+    border-top: 2px solid #252759;
+    /** Footer mit Wabenmuster
+    color: #DAD8A6;
     border-top: 2px solid #A76300;
-    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #0e0d0d 90%);
-    filter: invert(100%);
+    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #555050 0%, #0e0d0d 80%);
+    filter: invert(100%); */
+
 }
+
 footer a {
     color: #252759;
-    filter: invert(100%);
 }
 
 footer span.copyright {
     text-transform: none;
     color: #252759;
-    filter: invert(100%);
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
 }
