@@ -19,8 +19,8 @@ images:
         title: External views can be included to further expand the capabilities of dTiles.
         thumbnail: dTiles/dTiles_external_views.jpg
 order: 1
-description: dTiles  shows an overview of your data by leveraging synchronized views to composed dynamic dashboards. Dashboards can be reused and shared by saving the configurations and loading them with different datasets. dTiles provides a clean user interface to fit the needs of different user groups – from beginners to experts.
-header: Dynamically composing rich dashboards
 ---
 
-### dTiles
+#### Dynamically composing rich dashboards
+
+dTiles  shows an overview of your data by leveraging synchronized views to composed dynamic dashboards. Dashboards can be reused and shared by saving the configurations and loading them with different datasets. dTiles provides a clean user interface to fit the needs of different user groups – from beginners to experts.

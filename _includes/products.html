@@ -28,17 +28,14 @@
         {% for product in site.products %}
         <article class="product" id="{{ product.title }}">
             <div class="text-center">
-                {{ product }}
+                <h3>{{ product.title }}</h3>
             </div>
 
             <div class="row product-content-wrapper">
                 <div class="col-xs-12 col-lg-6 {% cycle '', 'col-lg-push-6' %}">
                     <!-- push column right at even loop index -->
                     <h4>{{ product.header }}</h4>
-                    <p>{{ product.description }}</p>
-                    {% if product.title == "ordino" %}
-                    <a href="https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz009/5292316">Ordino Paper</a>
-                    {% endif %}
+                    <p>{{ product.content }}</p>
                     <div class="demo">
                         <a href="{{ product.link.url }}" class="btn" target="_blank"
                             rel="noopener">{{ product.link.text }}</a>

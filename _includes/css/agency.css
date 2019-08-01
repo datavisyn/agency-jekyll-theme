@@ -277,17 +277,27 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #252759;
-    /** background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #454545 70%); */
+}
+
+header::after {
+    content: "";
+    background: linear-gradient(to bottom, transparent 70%, black 90%), url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #0e0d0d 90%);
     filter: invert(100%);
-    background-image: linear-gradient(to bottom, transparent 70%, black 90%), url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #0e0d0d 90%);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
     color: #252759;
-    filter: invert(100%);
 }
+
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -754,7 +764,7 @@ footer {
     padding: 25px 0;
     text-align: center;
     color: #252759;
-    border-top: 2px solid #252759;
+    border-top: 2px solid #589CFF;
     /** Footer mit Wabenmuster
     color: #DAD8A6;
     border-top: 2px solid #A76300;
