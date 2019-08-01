@@ -279,7 +279,7 @@ header {
     color: #252759;
 }
 
-header::after {
+header::before {
     content: "";
     background: linear-gradient(to bottom, transparent 70%, black 90%), url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #0e0d0d 90%);
     filter: invert(100%);

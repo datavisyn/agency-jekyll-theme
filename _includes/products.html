@@ -30,7 +30,6 @@
             <div class="text-center">
                 <h3>{{ product.title }}</h3>
             </div>
-
             <div class="row product-content-wrapper">
                 <div class="col-xs-12 col-lg-6 {% cycle '', 'col-lg-push-6' %}">
                     <!-- push column right at even loop index -->
@@ -51,7 +50,7 @@
                         {% endfor %}
                     </div>
                 </div>
-                <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %}">
+                <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %} {{ product.title }}">
                     <!-- pull column left at even loop index -->
                     <a href="img/screenshots/{{ product.images.primary.file }}" data-lightbox="{{ product.title }}"
                         data-title="{{ product.images.primary.title }}">
