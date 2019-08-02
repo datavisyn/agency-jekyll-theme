@@ -1,5 +1,4 @@
 
-
 #products {
     color: $muted_text;
 
@@ -16,7 +15,7 @@
         margin-top: 20px;
 
         h4 {
-            color: #252759;
+            color: $brand_darkblue;
         }
 
         p {
@@ -78,8 +77,8 @@
         text-align: right;
 
         > .btn {
-            color: #fff;
-            background-color: #589CFF;
+            color: white;
+            background-color: $dtiles_blue;
         }
     }
 }

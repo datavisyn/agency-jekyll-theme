@@ -3,7 +3,11 @@ color:
   primary: 23282c
   secondary: 8f9ba6
   secondary-dark: 5c6873
+  secondary-gray-4: c8ced3
   muted: 5c6873
+  dtiles-blue: 589CFF
+  brand-darkblue: 252759
+  danger: e74c3c
 
 # Font Families
 font:
