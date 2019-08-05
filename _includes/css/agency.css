@@ -10,7 +10,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: 'Monda, "Helvetica Neue",Helvetica,Arial,sans-serif';
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
 }
 
@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Monda","Helvetica Neue",Helvetica,Arial;
+    font-family:  {{ site.data.template.font.primary }};
     color: white;
     padding: 0;
 }
