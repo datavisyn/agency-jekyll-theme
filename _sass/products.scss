@@ -1,5 +1,4 @@
 
-
 #products {
     color: $muted_text;
 
@@ -16,7 +15,7 @@
         margin-top: 20px;
 
         h4 {
-            color: white;
+            color: $brand_darkblue;
         }
 
         p {
@@ -54,13 +53,32 @@
         }
     }
 
+    .Ordino {
+        margin-top: 0px;
+        padding: 0 20px;
+        a {
+            > img {
+                margin: 5px 7px 15px 7px;
+            }
+        }
+    }
+
+    .dTiles {
+        margin-top: 16px;
+        padding: 0 15px;
+        a {
+            > img {
+                margin: 10px 7px 0px 7px;
+            }
+        }
+    }
+
     .demo {
         text-align: right;
-        margin-top: 10px;
 
         > .btn {
-            color: #fff;
-            background-color: $primary_color;
+            color: white;
+            background-color: $dtiles_blue;
         }
     }
 }

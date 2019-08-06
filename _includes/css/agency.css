@@ -10,7 +10,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Work Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.75;
 }
 
@@ -41,14 +41,14 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.dtiles-blue }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.dtiles-blue }};
 }
 
 h1,
@@ -67,11 +67,11 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #454545; // #f7f7f7;
+    background-color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .bg-darkest-gray {
-    background-color: #222;
+    background-color: white;
 }
 
 .btn-primary {
@@ -79,7 +79,7 @@ h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -89,8 +89,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    color: white;
+    background-color: #{{ site.data.template.color.dtiles-blue }};
 }
 
 .btn-primary:active,
@@ -120,7 +120,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-primary .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: white;
 }
 
 .btn-xl {
@@ -131,7 +131,7 @@ fieldset[disabled] .btn-primary.active {
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -141,7 +141,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -172,28 +172,28 @@ fieldset[disabled] .btn-xl.active {
 
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: white;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: white;
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Monda","Helvetica Neue",Helvetica,Arial;
-    color: #fff;
+    font-family:  {{ site.data.template.font.primary }};
+    color: white;
+    padding: 0;
 }
-
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: black;
 }
 
 .navbar-default .navbar-toggle {
@@ -202,7 +202,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: white;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #{{ site.data.template.color.brand-darkblue }};
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -224,33 +224,51 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    color: #{{ site.data.template.color.dtiles-blue }};
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-header .page-scroll { 
+    padding: 10px 15px;    
+}
+.container>.navbar-header { 
+    border-bottom: 3px solid #{{ site.data.template.color.dtiles-blue }};
+    padding: 10px 15px;
 }
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
         border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
+        background-color: white;
+    }
+
+    .container>.navbar-header { 
+        border-bottom: 0px solid white;
+        padding: 10px 15px;
+    }
+
+    .navbar-default {
+        padding: 30px 0;
+        border-bottom: 3px solid #{{ site.data.template.color.dtiles-blue }};
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
     }
 
     .navbar-default .navbar-brand {
         font-size: 2em;
+        padding-top: 10px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -261,8 +279,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
+        background-color: white;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -270,28 +287,41 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+@media(max-width:425px) {
+    .img-responsive {
+        margin: 15px;
+    }
+}
+
 header {
     text-align: center;
-    color: #fff;
-    background: url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #222222 0%, #454545 100%);
-    /*background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;*/
+    color: #{{ site.data.template.color.brand-darkblue }};
+}
+
+header::before {
+    content: "";
+    background: linear-gradient(to bottom, transparent 70%, black 90%), url(https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png), linear-gradient(0deg, #{{ site.data.template.color.primary }} 0%, black 90%);
+    filter: invert(100%);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
 }
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: #{{ site.data.template.color.brand-darkblue }};
 }
+
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
+    color: #{{ site.data.template.color.brand-darkblue }};
     font-weight: 100;
     font-size: 22px;
     line-height: 25px;
@@ -310,11 +340,13 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        color: #{{ site.data.template.color.brand-darkblue }};
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        font-family: {{ site.data.template.font.primary }};
+        color: #{{ site.data.template.color.brand-darkblue }};
         font-size: 40px;
         line-height: 40px;
     }
@@ -342,10 +374,14 @@ section h2.section-heading {
 section h3.section-subheading {
     margin-bottom: 25px;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-weight: 400;
-    color: #ccc;
+    color: #{{ site.data.template.color.brand-darkblue }};
+    filter: invert(100%);
+}
+section h3.section-subheading a {
+    color: #{{ site.data.template.color.brand-darkblue }};
 }
 
 @media(min-width:768px) {
@@ -384,8 +420,9 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(254,209,54,.9); /* Fallback when no plugin support */
+    background: #{{ site.data.template.color.primary }}; /* Fallback when no plugin support */
     background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -400,7 +437,7 @@ section h3.section-subheading {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: white;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
@@ -417,7 +454,7 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: white;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -427,7 +464,7 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-style: italic;
 }
@@ -456,7 +493,7 @@ section h3.section-subheading {
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: white;
 }
 
 .timeline>li {
@@ -504,10 +541,10 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid white;
     border-radius: 100%;
     text-align: center;
-    color: #fff;
+    color: white;
     background-color: #{{ site.data.template.color.primary }};
 }
 
@@ -650,19 +687,19 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     max-height: 160px;
-    border: 0px solid #fff;
+    border: 0px solid white;
     filter: grayscale(100%);
 }
 
 section .section-heading {
-    color: #fff;
+    color: #{{ site.data.template.color.brand-darkblue }};
 }
 
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
     text-transform: none;
-    color: #FFCC05;
+    color: #{{ site.data.template.color.brand-darkblue }};
 }
 
 .team-member p {
@@ -674,14 +711,18 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: black;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    filter: invert(100%);
+    margin-bottom: 25px;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #{{ site.data.template.color.brand-darkblue }};
+    filter: invert(100%);
 }
 
 section#contact .form-group {
@@ -710,48 +751,55 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.data.template.color.secondary }};
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+    color: #{{ site.data.template.color.danger }};
 }
 
 footer {
     padding: 25px 0;
     text-align: center;
-    background-color: #222;
+    color: #{{ site.data.template.color.brand-darkblue }};
+    border-top: 2px solid #{{ site.data.template.color.dtiles-blue }};
+}
+
+footer a {
+    color: #{{ site.data.template.color.brand-darkblue }};
 }
 
 footer span.copyright {
     text-transform: none;
+    color: #{{ site.data.template.color.brand-darkblue }};
     font-family: {{ site.data.template.font.primary }};
     line-height: 40px;
 }
 
 footer ul.quicklinks {
     margin-bottom: 0;
+    color: white;
     text-transform: uppercase;
     text-transform: none;
     font-family: {{ site.data.template.font.primary }};
@@ -769,9 +817,10 @@ ul.social-buttons li a {
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
+    margin-top: 10px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: white;
+    background-color: #{{ site.data.template.color.dtiles-blue }};
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -812,13 +861,13 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 16px;
     font-style: italic;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 30px;
 }
 
@@ -845,7 +894,7 @@ ul.social-buttons li a:active {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.primary }};
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -855,7 +904,7 @@ ul.social-buttons li a:active {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #222;
+    background-color: #{{ site.data.template.color.primary }};
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

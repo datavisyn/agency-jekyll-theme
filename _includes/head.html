@@ -15,12 +15,12 @@
     <meta property="og:site_name" content="{{ title }}" />
     <meta property="og:description" content="{{ desc }}"/>
     <meta property="og:url" content="{{ site.url }}"/>
-    <meta property="og:image" content="{{ site.url }}/img/logos/datavisyn-logo.png"/>
+    <meta property="og:image" content="{{ site.url }}/img/logos/datavisyn-logo_new.png"/>
 
     <!-- Schema.org markup for Google+ -->
     <meta itemprop="name" content="{{ title }}"/>
     <meta itemprop="description" content="{{ desc }}"/>
-    <meta itemprop="image" content="{{ site.url }}/img/logos/datavisyn-logo.png"/>
+    <meta itemprop="image" content="{{ site.url }}/img/logos/datavisyn-logo_new.png"/>
 
     <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary_large_image"/>
@@ -28,20 +28,20 @@
     <meta name="twitter:title" content="{{ title }}"/>
     <meta name="twitter:description" content="{{ desc }}"/>
     <meta name="twitter:creator" content="@datavisyn"/>
-    <meta name="twitter:image:src" content="{{ site.url }}/img/logos/datavisyn-logo.png"/>
+    <meta name="twitter:image:src" content="{{ site.url }}/img/logos/datavisyn-logo_new.png"/>
 
     
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/img/favicons/favicon-32x32.png" | prepend: site.baseurl }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ "/img/favicons/favicon-16x16.png" | prepend: site.baseurl }}">
     <link rel="manifest" href="{{ "/img/favicons/site.webmanifest" | prepend: site.baseurl }}">
-    <link rel="mask-icon" href="{{ "/img/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#5bbad5">
+    <link rel="mask-icon" href="{{ "/img/favicons/safari-pinned-tab.svg" | prepend: site.baseurl }}" color="#{{ site.data.template.color.dtiles-blue }}">
     <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
     <meta name="apple-mobile-web-app-title" content="{{ title }}">
     <meta name="application-name" content="{{ title }}">
-    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileColor" content="#{{ site.data.template.color.danger }}">
     <meta name="msapplication-config" content="{{ "/img/favicons/browserconfig.xml" | prepend: site.baseurl }}">
-    <meta name="theme-color" content="#000000">
+    <meta name="theme-color" content="black">
 
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->

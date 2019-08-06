@@ -3,6 +3,9 @@
 
 $muted_text: #{{ site.data.template.color.muted }};
 $primary_color: #{{ site.data.template.color.primary }};
+$dtiles_blue: #{{ site.data.template.color.dtiles-blue }};
+$brand_darkblue: #{{ site.data.template.color.brand-darkblue }};
+$sec_gray_4: #{{ site.data.template.color.secondary-gray-4 }};
 
 @import "header";
 @import "imprint";
@@ -20,5 +23,5 @@ body {
 
 
 h1, h2, h3 {
-    color: #fff;
+    color: $brand_darkblue;
 }

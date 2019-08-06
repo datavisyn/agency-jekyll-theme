@@ -11,52 +11,59 @@
             {{ platform }}
         </div>
         <div class="features">
-        {% for feature in platform.features %}
-        {% cycle 'add rows': '<div class="row">', '' %} <!-- workaround for adding Bootstrap's rows if the loop is in at an odd index -->
+            {% for feature in platform.features %}
+            {% cycle 'add rows': '<div class="row">', '' %}
+            <!-- workaround for adding Bootstrap's rows if the loop is in at an odd index -->
             <div class="col-sm-6 feature">
                 <i class="fa fa-{{feature.iconClass}}"></i>
                 <h4>{{ feature.header }}</h4>
                 <p>{{ feature.text }}</p>
             </div>
-            {% cycle 'close rows': '', '</div>' %} <!-- even index -->
-        {% endfor %}
+            {% cycle 'close rows': '', '</div>' %}
+            <!-- even index -->
+            {% endfor %}
         </div>
         {% endfor %}
 
         {% for product in site.products %}
         <article class="product" id="{{ product.title }}">
             <div class="text-center">
-                {{ product }}
+                <h3>{{ product.title }}</h3>
             </div>
-
             <div class="row product-content-wrapper">
-                <div class="col-xs-12 col-lg-6 {% cycle '', 'col-lg-push-6' %}"> <!-- push column right at even loop index -->
+                <div class="col-xs-12 col-lg-6 {% cycle '', 'col-lg-push-6' %}">
+                    <!-- push column right at even loop index -->
                     <h4>{{ product.header }}</h4>
-                    <p>{{ product.description }}</p>
-
+                    <p>{{ product.content }}</p>
                     <div class="demo">
-                        <a href="{{ product.link.url }}" class="btn" target="_blank" rel="noopener">{{ product.link.text }}</a>
+                        <a href="{{ product.link.url }}" class="btn" target="_blank"
+                            rel="noopener">{{ product.link.text }}</a>
                     </div>
                     <div class="screenshots">
                         {% for image in product.images.secondary %}
-                            <div class="screenshot">
-                                <a href="img/screenshots/{{ image.file }}" data-lightbox="{{ product.title }}" data-title="{{ image.title }}">
-                                    <img src="img/screenshots/{{ image.thumbnail }}" alt="{{ image.title }}">
-                                </a>
-                            </div>
+                        <div class="screenshot">
+                            <a href="img/screenshots/{{ image.file }}" data-lightbox="{{ product.title }}"
+                                data-title="{{ image.title }}">
+                                <img src="img/screenshots/{{ image.thumbnail }}" alt="{{ image.title }}">
+                            </a>
+                        </div>
                         {% endfor %}
                     </div>
                 </div>
-                <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %}"> <!-- pull column left at even loop index -->
-                    <a href="img/screenshots/{{ product.images.primary.file }}" data-lightbox="{{ product.title }}" data-title="{{ product.images.primary.title }}">
-                        <img src="img/screenshots/{{ product.images.primary.thumbnail }}" alt="{{ product.images.primary.title }}">
+                <div class="screenshot col-xs-12 col-lg-6 {% cycle '', 'col-lg-pull-6' %} {{ product.title }}">
+                    <!-- pull column left at even loop index -->
+                    <a href="img/screenshots/{{ product.images.primary.file }}" data-lightbox="{{ product.title }}"
+                        data-title="{{ product.images.primary.title }}">
+                        <img src="img/screenshots/{{ product.images.primary.thumbnail }}"
+                            alt="{{ product.images.primary.title }}">
                     </a>
                 </div>
             </div>
         </article>
         {% endfor %}
         <p class="reduced-width-text center-block">
-            Academic licences for research or educational use can be obtained free of charge. To request an academic licence or to get details and pricing please send an email to
+            Academic licences for research or educational use can be obtained free of charge. To request an academic
+            licence or to get details and pricing please send an email to
             <a href="mailto:contact@datavisyn.io">contact@datavisyn.io</a>.
         </p>
     </div>
