@@ -67,6 +67,10 @@ jobs:
     link: /downloads/Job Ad DE.pdf
   - title: Senior Full Stack Developer
     link: /downloads/Job Ad DE.pdf # or for the HTML site: /jobs/senior-full-stack-developer#job
+  - title: DevOps Engineer
+    link: /downloads/DevOps Job Ad DE.pdf
+  - title: Office Assistant
+    link: /downloads/Office Assistant Job Ad DE.pdf
 
 # Postal address (add as many lines as necessary)
 address:
