@@ -48,9 +48,8 @@ id: jobs
     <h2>Openings</h2>
     <div class="features">
         {% for job in site.jobs %}
-       
         <div class="feature">
-            <i class= "fa {{job.iconClass}}"></i>
+             <i class= "fa {{job.iconClass}}"></i>
             <h4><a href="{{job.link}}">{{job.title}}</a></h4>
         </div>
         {% endfor %}

@@ -71,7 +71,7 @@ jobs:
     iconClass: fa-code
   - title: DevOps Engineer
     link: /downloads/DevOps Job Ad DE.pdf
-    iconClass: fa-comments
+    iconClass: fa-server
   - title: Office Assistant
     link: /downloads/Office Assistant Job Ad DE.pdf
     iconClass: fa-list-alt
