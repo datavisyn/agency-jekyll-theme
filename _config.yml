@@ -64,10 +64,10 @@ social:
 # job openings
 jobs:
   - title: Junior Full Stack Developer
-    link: /downloads/Job Ad DE.pdf
+    link: /downloads/Developer Job Ad DE.pdf
     iconClass: fa-code
   - title: Senior Full Stack Developer
-    link: /downloads/Job Ad DE.pdf # or for the HTML site: /jobs/senior-full-stack-developer#job
+    link: /downloads/Developer Job Ad DE.pdf # or for the HTML site: /jobs/senior-full-stack-developer#job
     iconClass: fa-code
   - title: DevOps Engineer
     link: /downloads/DevOps Job Ad DE.pdf
