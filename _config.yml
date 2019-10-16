@@ -10,7 +10,7 @@ description: 'We develop data visualization solutions for applications in pharma
 founders:
   - name: Marc Streit
     pic: streit
-    position: CEO and Co-Founder
+    position: Chief Executive Officer and Co-Founder
     affiliation:
       title: Faculty at Johannes Kepler University Linz
       url: https://www.jku.at/en/institute-of-computer-graphics/
@@ -56,14 +56,14 @@ founders:
 
   - name: Dominic Girardi
     pic: girardi
-    position: CTO
+    position: Chief Technology Officer
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/dominic-girardi-a199a894/
 
   - name: Anita Steiner
     pic: steiner
-    position: COO
+    position: Chief Operating Officer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
