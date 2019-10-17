@@ -4,6 +4,12 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    @media screen and (min-width: 768px)  {
+      justify-content: left;
+    }
+    @media screen and (min-width: 1440px)  {
+      justify-content: center;
+    }
 
     .partner {
       text-align: center;
@@ -22,6 +28,24 @@
 
     .partner.bayer img {
       max-height: 90px;
+    }
+
+    .partner.tech2b {
+      margin-right: 10px;
+    }
+
+    .partner.efre {
+      img {
+        height: 110px;
+        width: auto;
+        max-height: 110px;
+        margin-top: 1.3em;
+        margin-left: -5em;
+      }
+    }
+
+    .partner.landOOE {
+      margin-right: 0px;
     }
   }
 }
