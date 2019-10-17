@@ -7,10 +7,10 @@ email: contact@datavisyn.io
 description: 'We develop data visualization solutions for applications in pharmaceutical and biomedical R&D.'
 
 # Team names, titles and social links
-founders:
+team:
   - name: Marc Streit
     pic: streit
-    position: CEO and Co-Founder
+    position: Chief Executive Officer and Co-Founder
     affiliation:
       title: Faculty at Johannes Kepler University Linz
       url: https://www.jku.at/en/institute-of-computer-graphics/
@@ -50,14 +50,27 @@ founders:
       - title: home
         url: http://gehlenborglab.org/
       - title: twitter
-        url: http://twitter.com/nils_gehlenborg
+        url: http://twitter.com/ngehlenborg
       - title: linkedin
         url: http://www.linkedin.com/in/ngehlenborg
+
+  - name: Dominic Girardi
+    pic: girardi
+    position: Chief Technology Officer
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/dominic-girardi-a199a894/
+
+  - name: Anita Steiner
+    pic: steiner
+    position: Chief Operating Officer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/datavisyn
+  - title: linkedin
+    url: https://www.linkedin.com/company/datavisyn/
   - title: github
     url: http://github.com/datavisyn
 
