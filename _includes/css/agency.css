@@ -14,6 +14,10 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+div .container {
+    width: 100%;
+}
+
 .text-muted {
     #{{ site.data.template.color.muted }};
     color: #{{ site.data.template.color.muted }};
