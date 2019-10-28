@@ -13,8 +13,8 @@
 
     .partner {
       text-align: center;
-      width: 250px;
-      margin: 20px;
+      width: 30%;
+      margin: 1%;
 
       &::before {
         color: $sec_gray_4;
@@ -22,30 +22,9 @@
       }
 
       img {
-        max-height: 70px;
+        max-height: 100px;
+        max-width: 100%;
       }
-    }
-
-    .partner.bayer img {
-      max-height: 90px;
-    }
-
-    .partner.tech2b {
-      margin-right: 10px;
-    }
-
-    .partner.efre {
-      img {
-        height: 110px;
-        width: auto;
-        max-height: 110px;
-        margin-top: 1.3em;
-        margin-left: -5em;
-      }
-    }
-
-    .partner.landOOE {
-      margin-right: 0px;
     }
   }
 }
